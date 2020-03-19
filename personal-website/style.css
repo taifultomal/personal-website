@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+section{
+    height: 600px;
+}
+#header-aria{
+    background-image: url(images/header-bg.png);
+}
+.half-width-hello{
+    width: 43%;
+    margin: 0;
+    padding: 200px 2px 100px 210px;
+    float: left;
+
+}
+.half-width-tomal{
+    width: 43%;
+    float: left;
+}
+.half-width-tomal img{
+    width: 100%;
+    height: 100%;
+}
