@@ -5,6 +5,15 @@ body{
 section{
     height: 600px;
 }
+a{
+    text-decoration: none; 
+    color: ghostwhite; 
+    font-weight: 700; 
+    background-color: fuchsia; 
+    border-radius: 5PX; 
+    padding: 10PX 40PX 10PX 40PX;
+}
+
 #header-aria{
     background-image: url(images/header-bg.png);
 }
@@ -13,13 +22,82 @@ section{
     margin: 0;
     padding: 200px 2px 100px 210px;
     float: left;
-
 }
-.half-width-tomal{
-    width: 43%;
+.half-width-image{
+    width: 35%;
     float: left;
 }
-.half-width-tomal img{
+.half-width-image img{
     width: 100%;
     height: 100%;
+}
+
+
+#biography-aria{
+    background-image: url(images/biography-bg.png);
+}
+.bio-wrapper1{
+    position: relative;
+    float: left;
+    width: 500px;
+    padding-left: 200px;
+}
+.bio-specer{
+    position: relative;
+    float: left;
+    width: 4px;
+}
+.bio-wrapper2{
+    position: relative;
+    float: left;
+    width: 600px;
+    padding-top: 150px;
+    text-align: justify;
+}
+
+
+#letest-work-aria{
+    background-image: url(images/latest-work-bg.png);
+    height: 500px;
+}
+.section-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.container{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+.work-wrapper1{
+    position: relative;
+    float: left;
+    width: 450px;
+    border: 2px red solid;   
+}
+.work-wrapper1 div{
+    padding: 15px;
+}
+.work-wrapper2{
+    position: relative;
+    float: left;
+    width: 450px;
+    border: 2px red solid;
+}
+.work-wrapper2 div{
+    padding: 15px;
+}
+.work-wrapper3{
+    position: relative;
+    float: left;
+    width: 450px;
+    border: 2px red solid;        
+}
+.work-wrapper3 div{
+    padding: 15px;
+}
+
+#footer-aria{
+    padding-top: 300px;
+    background-image: url(images/footer-bg.png);
+    text-align: center
 }
