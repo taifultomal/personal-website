@@ -7,9 +7,9 @@ section{
 }
 a{
     text-decoration: none; 
+    background-image: linear-gradient(45deg, hotpink, mediumvioletred);
     color: ghostwhite; 
     font-weight: 700; 
-    background-color: fuchsia; 
     border-radius: 5PX; 
     padding: 10PX 40PX 10PX 40PX;
 }
@@ -71,8 +71,7 @@ a{
 .work-wrapper1{
     position: relative;
     float: left;
-    width: 450px;
-    border: 2px red solid;   
+    width: 450px;  
 }
 .work-wrapper1 div{
     padding: 15px;
@@ -81,7 +80,6 @@ a{
     position: relative;
     float: left;
     width: 450px;
-    border: 2px red solid;
 }
 .work-wrapper2 div{
     padding: 15px;
@@ -89,15 +87,23 @@ a{
 .work-wrapper3{
     position: relative;
     float: left;
-    width: 450px;
-    border: 2px red solid;        
+    width: 450px;        
 }
 .work-wrapper3 div{
     padding: 15px;
 }
 
 #footer-aria{
-    padding-top: 300px;
+    padding-top: 70px;
     background-image: url(images/footer-bg.png);
-    text-align: center
+    text-align: center;
+}
+
+#msg-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #EC5093, #ED4B6F);
+    padding: 20px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700
 }
